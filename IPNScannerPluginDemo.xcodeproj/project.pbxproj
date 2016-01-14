@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1413041BCE447B0071A0B2 /* IPNScannerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9958151B78B7710018BD31 /* IPNScannerSDK.framework */; };
+		1F1413061BCE451A0071A0B2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1413051BCE451A0071A0B2 /* AVFoundation.framework */; };
+		1F959E431BF2E323002E7CDF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F959E421BF2E323002E7CDF /* Launch Screen.storyboard */; };
+		1FC713DC1ADB98BF00F9C253 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC713DB1ADB98BF00F9C253 /* main.m */; };
+		1FC713DF1ADB98BF00F9C253 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC713DE1ADB98BF00F9C253 /* AppDelegate.m */; };
+		1FC713E21ADB98BF00F9C253 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC713E11ADB98BF00F9C253 /* ViewController.m */; };
+		1FC713E51ADB98BF00F9C253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC713E31ADB98BF00F9C253 /* Main.storyboard */; };
+		1FC713E71ADB98BF00F9C253 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC713E61ADB98BF00F9C253 /* Images.xcassets */; };
+		1FC714021ADB997100F9C253 /* ipaynow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1FC714011ADB997100F9C253 /* ipaynow.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F9958141B78B7710018BD31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9958101B78B7710018BD31 /* IPNScannerSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1FCB5C8D1B01897B008D4438;
+			remoteInfo = IPNScannerSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F1413051BCE451A0071A0B2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1F959E421BF2E323002E7CDF /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1F9958101B78B7710018BD31 /* IPNScannerSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IPNScannerSDK.xcodeproj; path = ../IPNScannerSDK/IPNScannerSDK.xcodeproj; sourceTree = "<group>"; };
+		1FC713D61ADB98BF00F9C253 /* IPNScannerSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPNScannerSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC713DA1ADB98BF00F9C253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC713DB1ADB98BF00F9C253 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FC713DD1ADB98BF00F9C253 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FC713DE1ADB98BF00F9C253 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FC713E01ADB98BF00F9C253 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FC713E11ADB98BF00F9C253 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FC713E41ADB98BF00F9C253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FC713E61ADB98BF00F9C253 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FC714011ADB997100F9C253 /* ipaynow.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ipaynow.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FC713D31ADB98BF00F9C253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1413061BCE451A0071A0B2 /* AVFoundation.framework in Frameworks */,
+				1F1413041BCE447B0071A0B2 /* IPNScannerSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9958111B78B7710018BD31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F9958151B78B7710018BD31 /* IPNScannerSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FC713CD1ADB98BF00F9C253 = {
+			isa = PBXGroup;
+			children = (
+				1F959E421BF2E323002E7CDF /* Launch Screen.storyboard */,
+				1F1413051BCE451A0071A0B2 /* AVFoundation.framework */,
+				1F9958101B78B7710018BD31 /* IPNScannerSDK.xcodeproj */,
+				1FC714011ADB997100F9C253 /* ipaynow.bundle */,
+				1FC713D81ADB98BF00F9C253 /* IPNScannerPluginDemo */,
+				1FC713D71ADB98BF00F9C253 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FC713D71ADB98BF00F9C253 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FC713D61ADB98BF00F9C253 /* IPNScannerSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FC713D81ADB98BF00F9C253 /* IPNScannerPluginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1FC713DD1ADB98BF00F9C253 /* AppDelegate.h */,
+				1FC713DE1ADB98BF00F9C253 /* AppDelegate.m */,
+				1FC713E01ADB98BF00F9C253 /* ViewController.h */,
+				1FC713E11ADB98BF00F9C253 /* ViewController.m */,
+				1FC713E31ADB98BF00F9C253 /* Main.storyboard */,
+				1FC713E61ADB98BF00F9C253 /* Images.xcassets */,
+				1FC713D91ADB98BF00F9C253 /* Supporting Files */,
+			);
+			path = IPNScannerPluginDemo;
+			sourceTree = "<group>";
+		};
+		1FC713D91ADB98BF00F9C253 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FC713DA1ADB98BF00F9C253 /* Info.plist */,
+				1FC713DB1ADB98BF00F9C253 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FC713D51ADB98BF00F9C253 /* IPNScannerPluginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC713F91ADB98BF00F9C253 /* Build configuration list for PBXNativeTarget "IPNScannerPluginDemo" */;
+			buildPhases = (
+				1FC713D21ADB98BF00F9C253 /* Sources */,
+				1FC713D31ADB98BF00F9C253 /* Frameworks */,
+				1FC713D41ADB98BF00F9C253 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPNScannerPluginDemo;
+			productName = IPNScannerPluginDemo;
+			productReference = 1FC713D61ADB98BF00F9C253 /* IPNScannerSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FC713CE1ADB98BF00F9C253 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ipaynow;
+				TargetAttributes = {
+					1FC713D51ADB98BF00F9C253 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = G46Z83B74L;
+					};
+				};
+			};
+			buildConfigurationList = 1FC713D11ADB98BF00F9C253 /* Build configuration list for PBXProject "IPNScannerPluginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FC713CD1ADB98BF00F9C253;
+			productRefGroup = 1FC713D71ADB98BF00F9C253 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1F9958111B78B7710018BD31 /* Products */;
+					ProjectRef = 1F9958101B78B7710018BD31 /* IPNScannerSDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1FC713D51ADB98BF00F9C253 /* IPNScannerPluginDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1F9958151B78B7710018BD31 /* IPNScannerSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IPNScannerSDK.framework;
+			remoteRef = 1F9958141B78B7710018BD31 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FC713D41ADB98BF00F9C253 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC713E51ADB98BF00F9C253 /* Main.storyboard in Resources */,
+				1FC714021ADB997100F9C253 /* ipaynow.bundle in Resources */,
+				1F959E431BF2E323002E7CDF /* Launch Screen.storyboard in Resources */,
+				1FC713E71ADB98BF00F9C253 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FC713D21ADB98BF00F9C253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC713E21ADB98BF00F9C253 /* ViewController.m in Sources */,
+				1FC713DF1ADB98BF00F9C253 /* AppDelegate.m in Sources */,
+				1FC713DC1ADB98BF00F9C253 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FC713E31ADB98BF00F9C253 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC713E41ADB98BF00F9C253 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FC713F71ADB98BF00F9C253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FC713F81ADB98BF00F9C253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FC713FA1ADB98BF00F9C253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/IPNScannerPlugin-cviwhztgeudkhbenpydgjmgwqkqb/Build/Products/Debug-iphoneos",
+					/Users/liuning1/Desktop,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = IPNScannerPluginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = IPNScannerSDKDemo;
+			};
+			name = Debug;
+		};
+		1FC713FB1ADB98BF00F9C253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/IPNScannerPlugin-cviwhztgeudkhbenpydgjmgwqkqb/Build/Products/Debug-iphoneos",
+					/Users/liuning1/Desktop,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = IPNScannerPluginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = IPNScannerSDKDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FC713D11ADB98BF00F9C253 /* Build configuration list for PBXProject "IPNScannerPluginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC713F71ADB98BF00F9C253 /* Debug */,
+				1FC713F81ADB98BF00F9C253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC713F91ADB98BF00F9C253 /* Build configuration list for PBXNativeTarget "IPNScannerPluginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC713FA1ADB98BF00F9C253 /* Debug */,
+				1FC713FB1ADB98BF00F9C253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FC713CE1ADB98BF00F9C253 /* Project object */;
+}
