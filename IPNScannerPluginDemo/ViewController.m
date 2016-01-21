@@ -33,7 +33,6 @@
     
     NSMutableData *mData;
     NSString *_presignStr;
-    IPNPayType _payType;
 }
 
 - (void)viewDidLoad {
@@ -47,16 +46,16 @@
 }
 
 - (IBAction)btnOKClick:(id)sender {
-    [self doSignature:IPNPayTypeAlixPay];
+    [self doSignature];
 }
 
 
 - (IBAction)pay:(id)sender {
-    [self doSignature:0];
+    [self doSignature];
 }
 
 - (IBAction)wechatPay:(id)sender {
-     [self doSignature:IPNPayTypeWechatPay];
+     [self doSignature];
 }
 
 -(void)returnTransResult:(IPNPayResult)result info:(NSString *)info{
@@ -71,13 +70,13 @@
 }
 
 #pragma mark  签名处理
--(void)doSignature:(IPNPayType) payType{
+-(void)doSignature{
     NSDateFormatter *dateFormatter = [NSDateFormatter new];
     [dateFormatter setDateFormat:@"yyyyMMddHHmmss"];
     //NSString *currentDateStr = [dateFormatter stringFromDate:[NSDate date]];
     
     IPNPreSignMessageUtil *preSign=[IPNPreSignMessageUtil new];
-    preSign.appId=@"1429254642153614";
+    preSign.appId=@"1450433280138951";
     preSign.consumerId=@"IPN_001";
     preSign.consumerName=@"1号消费者";
     preSign.mhtOrderNo=[dateFormatter stringFromDate:[NSDate date]];
@@ -90,12 +89,6 @@
     preSign.notifyUrl=@"http://localhost:10802/";
     preSign.mhtCharset=@"UTF-8";
     preSign.mhtOrderTimeOut=@"3600";
-    if (payType==IPNPayTypeAlixPay)
-        preSign.payChannelType=@"32";
-    else if(payType==IPNPayTypeWechatPay)
-        preSign.payChannelType=@"33";
-    preSign.terminalId=@"002401";
-    preSign.userName=@"test";
     
     NSString *originStr=[preSign generatePresignMessage];
     NSString *outputStr = CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,
