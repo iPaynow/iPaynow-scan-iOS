@@ -45,17 +45,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)btnOKClick:(id)sender {
-    [self doSignature];
-}
-
-
 - (IBAction)pay:(id)sender {
     [self doSignature];
-}
-
-- (IBAction)wechatPay:(id)sender {
-     [self doSignature];
 }
 
 -(void)returnTransResult:(IPNPayResult)result info:(NSString *)info{
