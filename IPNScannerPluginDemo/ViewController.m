@@ -20,9 +20,7 @@
 #define kSignURL         @"http://posp.ipaynow.cn/ZyPluginPaymentTest_PAY/api/pay2.php"
 
 @interface ViewController ()<IPNTransDelegate>
-- (IBAction)btnOKClick:(id)sender;
 - (IBAction)pay:(id)sender;
-- (IBAction)wechatPay:(id)sender;
 
 @end
 
@@ -49,7 +47,7 @@
     [self doSignature];
 }
 
--(void)returnTransResult:(IPNPayResult)result info:(NSString *)info{
+-(void)returnTransResult:(IPNPayResult)result errCode:(NSString *)errCode info:(NSString *)info{
     if (result==IPNPayResultSuccess) {
         [self showAlertMessage:@"交易成功"];
     }else if (result==IPNPayResultFail)
@@ -67,7 +65,7 @@
     //NSString *currentDateStr = [dateFormatter stringFromDate:[NSDate date]];
     
     IPNPreSignMessageUtil *preSign=[IPNPreSignMessageUtil new];
-    preSign.appId=@"1450433280138951";
+    preSign.appId=@"1450659768775911";
     preSign.consumerId=@"IPN_001";
     preSign.consumerName=@"1号消费者";
     preSign.mhtOrderNo=[dateFormatter stringFromDate:[NSDate date]];
@@ -82,6 +80,7 @@
     preSign.mhtOrderTimeOut=@"3600";
     
     NSString *originStr=[preSign generatePresignMessage];
+    
     NSString *outputStr = CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,
                                                                                                 (CFStringRef)originStr,
                                                                                                 NULL,
@@ -97,10 +96,10 @@
     NSURL* url = [NSURL URLWithString:kSignURL];
     NSMutableURLRequest * urlRequest=[NSMutableURLRequest requestWithURL:url];
     [urlRequest setHTTPMethod:@"POST"];
-    
     urlRequest.HTTPBody=[presignStr dataUsingEncoding:NSUTF8StringEncoding];
     NSURLConnection* urlConn = [[NSURLConnection alloc] initWithRequest:urlRequest delegate:self];
     [urlConn start];
+    
     [self showAlertWait];
 }
 

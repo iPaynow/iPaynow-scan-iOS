@@ -89,22 +89,6 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../IPNScannerSDK/IPNScannerSDK/HttpRequest/IPNPayupRequest.m"
-            timestampString = "475065304.652064"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "-beginPay"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "../IPNScannerSDK/IPNScannerSDK/DES/IPNDESUtil.mm"
             timestampString = "475065838.004204"
             startingColumnNumber = "9223372036854775807"
@@ -153,22 +137,6 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../IPNScannerSDK/IPNScannerSDK/HttpRequest/IPNPayupRequest.m"
-            timestampString = "475066154.811707"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "-response:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "../IPNScannerSDK/IPNScannerSDK/HttpRequest/IPNPayResultNotifyRequest.m"
             timestampString = "475066386.958898"
             startingColumnNumber = "9223372036854775807"
@@ -176,22 +144,6 @@
             startingLineNumber = "23"
             endingLineNumber = "23"
             landmarkName = "-beginNotify"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../IPNScannerSDK/IPNScannerSDK/HttpRequest/IPNPayupRequest.m"
-            timestampString = "475128708.268043"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "-response:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
